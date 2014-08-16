@@ -1,6 +1,10 @@
 MessageReceiver
 ===============
+This application receives and displays a binary count on the leds of the mote. 
 
+This application works with a node with a transmitting application like 'ACKedTransmit', 'TimerAcked' or 'TransmitTimer'. 
+
+If this node is the destination of the packet it will display the count in the packet on the leds.
 
 
 
